@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter:blur(10px);
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.rtk{
+    font-size: 40px;
+    color: orangered;
+    font-weight: 600;
+    cursor: pointer;
+}
+.rtk:hover{
+    color:white;
+}
+.rj{
+    font: size 40px;
+    color: white;
+    font-weight: 600;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.active{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.active:hover{
+    background-color: orangered;
+    color:white;
+}
+.wo{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.wo:hover{
+    background-color: orangered;
+    color:white;
+}
+.abo{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.abo:hover{
+    background-color: orangered;
+    color:white;
+}
+.pro{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.pro:hover{
+    background-color: orangered;
+    color:white;
+}
+
+.navbar:hover{
+    background-color:pink;
+    color:white;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: orangered;
+    color:white;
+}
+.img-box {
+    width: 380px;
+    height: 418px;
+    position: absolute;
+    display: flex;
+    left: 60%; 
+    margin-top: 130px;   
+}
+.myimg{
+    height: 399px;
+    width: 800px;
+    border-radius: 50%;
+}
+.home-content{
+    max-width: 800px;
+}
+h1{
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+h1 :hover{
+    color: rgb(252, 161, 234);
+    text-shadow: 0 0 25px white;
+    transform: scale(1.1);
+}
+h3{
+    font-size: 40px;
+    position: absolute;
+    top: 32%;
+    left: 20%;
+}
+h3:hover{
+    color: aquamarine;
+    text-shadow: 0 0 25px rgb(252, 161, 234);
+    transform: scale(1.1);
+}
+p{
+    font-size: 16px;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+.home-content h3{
+    font-size: 300px;
+   
+      
+}
+.home-content h1{
+    font-size: 200px;
+    line-height: 1.2;
+   
+}
+.home-content p{
+    font-size: 400px;
+   
+}
+.btn-box{
+    width: 400px;
+    font-size: 30px;
+    display: flex;
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 300px;
+    gap: 1em;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: white;
+    color:orangered;
+}
+
+
+
